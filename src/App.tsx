@@ -5,7 +5,6 @@ import './css/global.css'
 
 import styles from "./css/App.module.css"
 import { Header } from "./components/Header"
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 // author: {avatar_url: "", name: "", role: ""}
@@ -57,7 +56,6 @@ function App() {
               post={post}
             />)
           })}
-          <SpeedInsights />
         </div>
       </main>
     </div>
